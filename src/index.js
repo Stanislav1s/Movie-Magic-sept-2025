@@ -1,4 +1,4 @@
-import express from 'express'
+import express, { urlencoded } from 'express'
 import handlebars from 'express-handlebars'
 import routes from './routes.js';
 
@@ -13,7 +13,8 @@ app.engine('hbs', handlebars.engine({
 app.set('view engine', 'hbs');
 app.set('views', 'src/views');
 
-app.use(express.static('src/public'))
+app.use(express.static('src/public'));
+app.use(express.urlencoded());
 
 app.use(routes);
 
