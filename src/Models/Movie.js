@@ -28,7 +28,7 @@ const movies = [
         "genre": "Mystery/Thriller",
         "director": "Aiko Tanaka",
         "year": 2023,
-        "imageURL": "hhttps://m.media-amazon.com/images/I/81ntlepycQL._UF1000,1000_QL80_.jpg",
+        "imageURL": "https://m.media-amazon.com/images/I/81ntlepycQL._UF1000,1000_QL80_.jpg",
         "rating": 8.7,
         "description": "When a series of cryptic murders strikes the ancient city of Kyoto, a detective must uncover a centuries-old conspiracy hidden in the temples."
     }
