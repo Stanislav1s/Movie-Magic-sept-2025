@@ -2,7 +2,7 @@ import { v4 as uuid } from "uuid"
 
 const movies = [
     {
-        "id": 1,
+        "_id": 1,
         "title": "Echoes of Tomorrow",
         "category": "Feature Film",
         "genre": "Science Fiction",
@@ -13,7 +13,7 @@ const movies = [
         "description": "In a near-future world where memories can be traded, a young scientist discovers a black-market scheme that threatens to erase the past of humanity."
     },
     {
-        "id": 2,
+        "_id": 2,
         "title": "The Last Sonata",
         "category": "Feature Film",
         "genre": "Drama",
@@ -24,7 +24,7 @@ const movies = [
         "description": "An aging pianist confronts his lost dreams when he mentors a rebellious teenager, forming an unexpected bond through music."
     },
     {
-        "id": 3,
+        "_id": 3,
         "title": "Shadows in Kyoto",
         "category": "Feature Film",
         "genre": "Mystery/Thriller",

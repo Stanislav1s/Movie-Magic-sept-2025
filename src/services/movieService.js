@@ -3,7 +3,13 @@ import Movie from "../Models/Movie.js";
 export default {
     getAll() {
         return Movie.find()
-    }, create(movieData) {
+    },
+    getOne(movieId) {
+        return Movie.find({ _id: movieId })
+
+    },
+
+    create(movieData) {
 
 
         const movie = new Movie(movieData)
@@ -11,4 +17,5 @@ export default {
         return movie.save()
 
     }
+
 }
